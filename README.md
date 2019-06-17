@@ -41,7 +41,12 @@ CMD ["src/app.py"]
 ## Running container
 
 ```bash
+# build image
 docker build -t flask-test-alex .
-docker ps -a
+# verify image is created
+docker images
+# run the container
 docker run -d -p 5000:5000 flask-test-alex
+# verify container is running
+docker ps -a
 ```
