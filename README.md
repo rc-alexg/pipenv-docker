@@ -7,8 +7,7 @@ pipenv install pytest --dev
 pip install flask
 pip lock --requirements > requirements.txt
 pip install dateutil
-git add .
-git commit -m 'basic framework for pipenv'
+pip lock --requirements > requirements.txt
 ```
 
 ## Running container
